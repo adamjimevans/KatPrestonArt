@@ -1,0 +1,83 @@
+html {
+    font-family: cabin;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.about {
+    display:inline-block;
+    width: 22%;
+    position: relative;
+    padding-bottom: 10PX;    
+    align-items: center;
+}
+
+bio {
+    width: 10%;
+}
+
+.biocase {
+    margin-left:250px;
+}
+
+div {
+    display:block;
+}
+
+h1 {
+    font-family: Lora, serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.wrapper {
+    position: fixed;
+}
+
+.content {
+    margin-left: 250px;
+    text-align: center;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+    font-family: ubuntu, serif;
+    cursor: pointer;
+}
+
+li a:hover {
+    color:slategray;
+}
+
+.portrait {
+    width: 350px;
+    height: 500px;
+    display: inline-block;
+}
+
+.product {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 300px;
+    height: 350px;
+}
+
+.image { 
+    display: inline-block;
+    width: 33%;
+    margin: 10px auto;
+    min-height: 100px;
+}
+
+.image:hover {
+    opacity: 70%;
+}
+
+ul {
+    list-style: none;
+}
